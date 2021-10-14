@@ -7,11 +7,9 @@ import io
 # import requests
 from tempfile import NamedTemporaryFile
 
-
-
 st.title('Estrai tabelle excel da un file in formato .pdf')
 
-st.subheader('Questa è una prova') 
+st.subheader('Questa è una versione beta') 
 
 
 uploaded_file = st.file_uploader("Carica il tuo file", type = ['.pdf'])  
