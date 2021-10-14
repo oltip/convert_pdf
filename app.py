@@ -9,7 +9,7 @@ from tempfile import NamedTemporaryFile
 
 
 
-st.title('Extrai tabelle excel da un file in formato .pdf')
+st.title('Estrai tabelle excel da un file in formato .pdf')
 
 st.subheader('Questa è una prova') 
 
@@ -122,7 +122,7 @@ if st.session_state.button:
 		# Close the Pnadas excel writtter and ouput the Excel file to the wrapper 
 		writer.save()
 		
-		# button = st.button('Click per scaricare file', key = 'one')
+		# button = st.button('Clicca qui per scaricare il file', key = 'one')
 
 # Could it have to do with download_button that removed all the state ????? 
 
