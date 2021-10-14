@@ -48,7 +48,6 @@ if opzione == 'stream di dati':
 else:
 	lattice, stream_dati = True, False
 
-
 header = None if senza_intestazione else 0 
 
 print('header is', header)
@@ -69,7 +68,7 @@ if 'button' not in st.session_state:
 
 st.session_state.button = st.button('Click per convertire file')
 
-st.write('STATE Button', st.session_state.button)
+# st.write('STATE Button', st.session_state.button)
 
 # here we need to add the session_state
 
